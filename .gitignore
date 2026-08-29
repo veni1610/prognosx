@@ -1,0 +1,19 @@
+# Byte-compiled / cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.env
+
+# Project data & outputs (don't push patient data or trained models)
+data/raw/*
+!data/raw/.gitkeep
+outputs/
+*.npy
+*.npz
+*.pt
+*.csv
+
+# Jupyter
+.ipynb_checkpoints/

@@ -9,11 +9,14 @@ venv/
 # Project data & outputs (don't push patient data or trained models)
 data/raw/*
 !data/raw/.gitkeep
+data/processed/
 outputs/
 *.npy
 *.npz
 *.pt
 *.csv
+*.jpg
+*.jpeg
 
 # Jupyter
 .ipynb_checkpoints/

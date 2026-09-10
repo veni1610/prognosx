@@ -3,7 +3,7 @@ import os
 # ---- Paths (EDIT THESE to match your actual MIMIC-CXR file locations) ----
 MIMIC_CXR_IMAGE_ROOT = "data/raw"
 MIMIC_CXR_METADATA_CSV = "data/raw/mimic-cxr-2.0.0-metadata.csv"
-MIMIC_CXR_CHEXPERT_CSV = "data/raw/mimic-cxr-2.0.0-metadata.csv"
+MIMIC_CXR_CHEXPERT_CSV = "data/raw/mimic-cxr-2.0.0-chexpert.csv"
 
 OUTPUT_DIR = "./outputs"
 EMBEDDINGS_DIR = os.path.join(OUTPUT_DIR, "embeddings")
